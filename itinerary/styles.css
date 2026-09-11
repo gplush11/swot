@@ -19,6 +19,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4.75rem;
 }
 
 body {
@@ -466,6 +467,9 @@ button:hover { background: var(--gold); color: var(--forest); }
   .day::before { display: none; }
   .watchouts, .stays, .desk, .colophon, .days {
     width: min(1120px, calc(100% - 8vw));
+  }
+  .desk {
+    padding-top: 4.5rem;
   }
 }
 
