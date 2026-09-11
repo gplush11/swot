@@ -63,13 +63,13 @@ const DAYS = [
     num: "15",
     dow: "Sun",
     month: "Nov",
-    title: "LEGO day, then up to Skejby",
-    where: "Billund → Aarhus N",
+    title: "LEGO day, then west to Skjern",
+    where: "Billund → Skjern St.",
     chips: [{ t: "LEGOLAND shut", k: "shut" }, { t: "LEGO House 10–16", k: "open" }],
     beats: [
       ["10:00", "LEGO House Experience Zones 10:00–16:00. Book MINI CHEF if you want the brick-built restaurant (tables from 11:00). This is the Sunday park day, adjusted for the winter close."],
-      ["14:30", "Bus 912X Billund Airport/LEGOLAND → Aarhus H, about 1h30. Then Aarhus Letbane toward Lystrup / Lisbjerg — alight Aarhus Universitetshospital / Skejby."],
-      ["Evening", "Four nights start tonight at GUESTapart or Four Points Flex, Skejby. Kitchen + light rail is the point of a midweek stay here."]
+      ["15:00", "Billund to Skjern is ~50 km / 45–55 minutes by car or taxi — the sane hop. Public: bus from LEGOLAND toward Vejle or Give, then train via Herning to Skjern St. (closer to 1½–2½ hours). Rejseplanen.dk for the day’s connections."],
+      ["Evening", "Four nights start at Hotel Skjern, Bredgade 58, across from the station. Book online for 24/7 self check-in — Sunday reception is only 10:00–12:00."]
     ],
     note: "If the outdoor park is the whole point, do not come this week. Christmas at LEGOLAND Billund is 28 Nov–31 Dec 2026."
   },
@@ -78,13 +78,13 @@ const DAYS = [
     num: "16",
     dow: "Mon",
     month: "Nov",
-    title: "Skejby — Aarhus at walking-tram pace",
-    where: "Aarhus N",
+    title: "Skjern — the river delta",
+    where: "Skjern Enge · Ringkøbing Fjord",
     chips: [{ t: "Base", k: "open" }],
     beats: [
-      ["Morning", "Letbane into town (~15 min). ARoS art museum and the rainbow panorama on the roof."],
-      ["Afternoon", "Latin Quarter for coffee and bookshops, or Den Gamle By if you want the open-air town in winter kit."],
-      ["Night", "Back to Skejby. November sunset is around 16:10 — plan indoor late afternoons."]
+      ["Morning", "Skjern Enge is Denmark’s only river delta, ten minutes out of town. November is the bird month: ducks, geese, swans, and a real chance of white-tailed eagle from the towers at Hestholm and Pumpestation Nord."],
+      ["Afternoon", "Trails can be wet. Waterproof boots, short daylight (sunset ~16:20). Bus 69 toward Lønborg if you are not driving; a taxi for the towers is simpler."],
+      ["Night", "Back at Hotel Skjern. November west Jutland is wind and early dark — plan indoor evenings."]
     ]
   },
   {
@@ -92,12 +92,13 @@ const DAYS = [
     num: "17",
     dow: "Tue",
     month: "Nov",
-    title: "Skejby — longer radius",
-    where: "Aarhus N",
+    title: "Skjern — whisky or the North Sea",
+    where: "Stauning or Hvide Sande",
     chips: [{ t: "Base", k: "open" }],
     beats: [
-      ["Day", "Moesgaard Museum south of town (bus, ~25 min from the centre) or a harbour walk to Dokk1 and the ice-cold waterfront."],
-      ["Alt", "If this stay is actually to see someone at Aarhus University Hospital, you are already next door. Keep the day unscheduled."]
+      ["Day", "Stauning Whisky is the local distillery (peat, west-coast barley). Hotel Skjern flags their tours. Book ahead."],
+      ["Alt", "Hvide Sande and the North Sea dunes are ~35 minutes west, on Ringkøbing Fjord. Wind, harbour, and a long beach walk if the weather allows."],
+      ["Town", "Skjern itself is small: Bredgade, the Holger Danske statue, and the river. A four-night stay here is for the landscape, not nightlife."]
     ]
   },
   {
@@ -105,12 +106,12 @@ const DAYS = [
     num: "18",
     dow: "Wed",
     month: "Nov",
-    title: "Last full day in Skejby",
-    where: "Aarhus N",
+    title: "Last full day in Skjern",
+    where: "Skjern",
     chips: [{ t: "Base", k: "open" }],
     beats: [
-      ["Day", "Anything you skipped — ARoS, the old town, a long lunch. Pack tonight. Thursday is a travel day with a 3-hour train before the airport."],
-      ["Night", "Fourth and final night in Skejby. Checkout is Thursday morning."]
+      ["Day", "Whatever you skipped — Enge, Ringkøbing town, or a slow café day. Pack tonight. Thursday is a long rail day."],
+      ["Night", "Fourth and final night in Skjern. Checkout Thursday morning; first useful trains toward Copenhagen leave Skjern St. from about 05:17."]
     ]
   },
   {
@@ -118,14 +119,14 @@ const DAYS = [
     num: "19",
     dow: "Thu",
     month: "Nov",
-    title: "Back to CPH, fly to Austria",
-    where: "Aarhus H → København H → CPH → VIE (or SZG / INN)",
+    title: "Skjern to CPH, fly to Austria",
+    where: "Skjern St. → København H → CPH → VIE (or SZG / INN)",
     chips: [{ t: "Travel day", k: "fly" }],
     beats: [
-      ["Morning", "Letbane to Aarhus H, then DSB InterCity to København H (~3 hours). Leave Skejby by ~08:00 if you want a buffer at CPH."],
-      ["Airport", "Metro from København H to CPH, ~15 minutes. You asked to fly out of Copenhagen Airport, not Billund."],
+      ["Morning", "No direct train. Typical: Skjern St. → Esbjerg (or Herning) → København H. Fastest about 4h35, often 5h+. Hotel is opposite the station, so leave with the train, not a taxi buffer."],
+      ["Airport", "Metro from København H to CPH, ~15 minutes. You asked to fly out of Copenhagen Airport, not Billund — even though BLL is closer to Skjern."],
       ["Air", "Vienna (VIE) is the default: nonstop ~1h40, several daily on Austrian (typical banks around 09:40, 17:45, 20:00), plus SAS and Ryanair. Salzburg and Innsbruck are one-stop alternatives if that is the Austria you mean."],
-      ["Aim", "A mid-afternoon CPH departure (Austrian OS996 around 17:45 is the usual shape) keeps the Aarhus morning civil."]
+      ["Aim", "A 17:45-ish CPH departure needs you on a Skjern train by ~09:00. A morning Vienna flight means the 05:17. Do not book a 09:40 CPH takeoff unless you like that alarm."]
     ]
   }
 ];
@@ -137,8 +138,8 @@ const CHECKS = [
   "Tivoli Christmas tickets if not staying at Nimb",
   "Hotel LEGOLAND — 1 night, 14 Nov (or Lalandia if the hotel is closed)",
   "LEGO House tickets, 15 Nov (and 14 Nov if you arrive in time)",
-  "GUESTapart or Four Points Flex Skejby — 4 nights, 15–19 Nov",
-  "DSB / Rejseplanen: CPH → Billund 14 Nov, Billund → Aarhus 15 Nov, Aarhus → CPH 19 Nov",
+  "Hotel Skjern — 4 nights, 15–19 Nov (opposite the station)",
+  "DSB / Rejseplanen: CPH → Billund 14 Nov, Billund → Skjern 15 Nov, Skjern → CPH 19 Nov",
   "CPH → Austria flight, 19 Nov (VIE unless you name another city)"
 ];
 
@@ -177,7 +178,7 @@ function renderDays() {
 }
 
 function renderChecks() {
-  const saved = JSON.parse(localStorage.getItem("denmark-folio-checks") || "{}");
+  const saved = JSON.parse(localStorage.getItem("denmark-folio-checks-v2") || "{}");
   const ul = document.getElementById("checks");
   ul.innerHTML = CHECKS.map((label, i) => `
     <li>
@@ -190,9 +191,9 @@ function renderChecks() {
   ul.addEventListener("change", (e) => {
     const box = e.target.closest("input");
     if (!box) return;
-    const next = JSON.parse(localStorage.getItem("denmark-folio-checks") || "{}");
+    const next = JSON.parse(localStorage.getItem("denmark-folio-checks-v2") || "{}");
     next[box.dataset.i] = box.checked;
-    localStorage.setItem("denmark-folio-checks", JSON.stringify(next));
+    localStorage.setItem("denmark-folio-checks-v2", JSON.stringify(next));
   });
 }
 
@@ -220,11 +221,11 @@ function ics() {
     ["20261112", "Arrive CPH · Andersen Boutique near Tivoli"],
     ["20261113", "Nimb Hotel · Tivoli Christmas opens"],
     ["20261114", "Travel to Billund · Hotel LEGOLAND"],
-    ["20261115", "LEGO House · move to Skejby"],
-    ["20261116", "Skejby / Aarhus"],
-    ["20261117", "Skejby / Aarhus"],
-    ["20261118", "Last full day Skejby"],
-    ["20261119", "Aarhus → CPH → Austria"]
+    ["20261115", "LEGO House · move to Skjern"],
+    ["20261116", "Skjern Enge / Ringkøbing Fjord"],
+    ["20261117", "Skjern · Stauning or Hvide Sande"],
+    ["20261118", "Last full day Skjern"],
+    ["20261119", "Skjern → CPH → Austria"]
   ];
   const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
   const body = events.map(([day, summary], i) => [
