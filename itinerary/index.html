@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Denmark Folio · 11–19 Nov 2026</title>
+  <meta name="description" content="Indianapolis to Copenhagen, Tivoli, LEGOLAND, Skejby, then Austria. Veterans Day 2026 itinerary." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Sora:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#days">Skip to days</a>
+
+  <header class="mast">
+    <div class="mast__ticket">
+      <p class="mast__code">FOLIO · NOV 2026 · IND–CPH–BLL–AAR–VIE</p>
+      <div class="route" aria-label="Trip route">
+        <span><em>IND</em> Indianapolis</span>
+        <span class="route__arrow" aria-hidden="true"></span>
+        <span><em>CPH</em> Tivoli</span>
+        <span class="route__arrow" aria-hidden="true"></span>
+        <span><em>BLL</em> Billund</span>
+        <span class="route__arrow" aria-hidden="true"></span>
+        <span><em>AAR</em> Skejby</span>
+        <span class="route__arrow" aria-hidden="true"></span>
+        <span><em>VIE</em> Austria</span>
+      </div>
+    </div>
+    <div class="mast__hero">
+      <p class="eyebrow">Veterans Day departure</p>
+      <h1>Denmark, then Austria.</h1>
+      <p class="lede">
+        Leave Indianapolis on Wednesday 11 November 2026. Sleep beside Tivoli that first night in Copenhagen,
+        sleep <em>inside</em> Tivoli on Friday, ride west to Billund for Saturday night, spend Sunday with LEGO,
+        then base in Skejby until Thursday and fly out of Copenhagen Airport for Austria.
+      </p>
+      <dl class="facts">
+        <div>
+          <dt>Nights away</dt>
+          <dd>8</dd>
+        </div>
+        <div>
+          <dt>Until wheels-up</dt>
+          <dd id="countdown">—</dd>
+        </div>
+        <div>
+          <dt>Home tz</dt>
+          <dd>Indianapolis · UTC−5</dd>
+        </div>
+        <div>
+          <dt>On the ground</dt>
+          <dd>Copenhagen · CET</dd>
+        </div>
+      </dl>
+    </div>
+  </header>
+
+  <section class="watchouts" aria-labelledby="watch-title">
+    <h2 id="watch-title">Two calendar facts to book around</h2>
+    <ol>
+      <li>
+        <strong>Tivoli Christmas opens Friday 13 November.</strong>
+        Halloween ended 1 November. The gardens are shut Thursday 12 November — your first Copenhagen night —
+        then reopen the evening you check into Nimb. Tivoli Food Hall stays open off the street in between.
+      </li>
+      <li>
+        <strong>LEGOLAND Billund is closed 15 November.</strong>
+        The park’s 2026 Christmas season starts 28 November. Stay at Hotel LEGOLAND Saturday as planned,
+        but spend Sunday at <a href="https://www.legohouse.com/en-gb/">LEGO House</a> (open 10:00–16:00 that Sunday)
+        instead of the outdoor park. Shift the whole trip two weeks later if the rides are non-negotiable.
+      </li>
+    </ol>
+    <p class="place-note">
+      “Skjeeb” is mapped as <strong>Skejby</strong>, the Aarhus N neighbourhood around the university hospital —
+      Four Points Flex and GUESTapart are both there. If you meant Skive or Skjern, the Thursday airport run still works; only the midweek base changes.
+    </p>
+  </section>
+
+  <nav class="day-nav" aria-label="Days">
+    <ol id="day-nav"></ol>
+  </nav>
+
+  <main id="days" class="days"></main>
+
+  <section class="stays" aria-labelledby="stays-title">
+    <h2 id="stays-title">Where you sleep</h2>
+    <div class="stay-grid">
+      <article class="stay">
+        <p class="stay__when">Thu 12 Nov</p>
+        <h3>Near Tivoli</h3>
+        <p class="stay__pick">Andersen Boutique Hotel</p>
+        <p>Helgolandsgade 12, Vesterbro. Five minutes on foot to the gardens and København H — right for a late arrival from CPH. Sister hotel Absalon is across the street if Andersen is full. Villa Copenhagen is the splurge, literally next to Tivoli.</p>
+        <p class="stay__addr">Helgolandsgade 12, 1653 København V</p>
+        <div class="stay__links">
+          <a href="https://andersen-hotel.dk/en/">Book Andersen</a>
+          <a href="https://www.absalon-hotel.dk/en/">Absalon</a>
+          <a href="https://www.villacopenhagen.com/">Villa Copenhagen</a>
+        </div>
+      </article>
+      <article class="stay stay--nimb">
+        <p class="stay__when">Fri 13 Nov</p>
+        <h3>On Tivoli’s grounds</h3>
+        <p class="stay__pick">Nimb Hotel</p>
+        <p>The Moorish palace actually inside the gardens, Bernstorffsgade 5. Stay includes garden entry and ride tickets when Tivoli is open — and Friday is opening night of Christmas. Tivoli Hotel &amp; Congress Center is the more affordable Tivoli-branded backup (10–15 min walk, not inside the fence).</p>
+        <p class="stay__addr">Bernstorffsgade 5, 1577 København V</p>
+        <div class="stay__links">
+          <a href="https://www.nimb.dk/en">Book Nimb</a>
+          <a href="https://www.tivolihotel.com/">Tivoli Hotel backup</a>
+        </div>
+      </article>
+      <article class="stay stay--lego">
+        <p class="stay__when">Sat 14 Nov</p>
+        <h3>At LEGOLAND</h3>
+        <p class="stay__pick">Hotel LEGOLAND</p>
+        <p>Aastvej 10, on the resort. Confirm they are taking 14 November guests — the advertised Christmas hotel packages run Thursday–Sunday from 26 November. If the hotel is dark, Lalandia Billund (year-round water park) is the practical on-site alternative.</p>
+        <p class="stay__addr">Aastvej 10, 7190 Billund</p>
+        <div class="stay__links">
+          <a href="https://www.legoland.dk/en/accommodation/hotel-legoland/">Hotel LEGOLAND</a>
+          <a href="https://www.lalandia.dk/en/billund">Lalandia Billund</a>
+        </div>
+      </article>
+      <article class="stay stay--skejby">
+        <p class="stay__when">Sun 15 – Thu 19 Nov · 4 nights</p>
+        <h3>Skejby</h3>
+        <p class="stay__pick">GUESTapart</p>
+        <p>Kitchen apartments next to the Aarhus University Hospital light-rail stop — the right shape for four nights. Four Points Flex by Sheraton Aarhus Skejby (Tangen 45) if you want a straight hotel. City centre is ~15 minutes on Letbanen.</p>
+        <p class="stay__addr">Skejby, 8200 Aarhus N</p>
+        <div class="stay__links">
+          <a href="https://www.guestapart.dk/en">GUESTapart</a>
+          <a href="https://www.marriott.com/en-us/hotels/aarsf-four-points-flex-aarhus-skejby/overview/">Four Points Flex</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="desk" aria-labelledby="desk-title">
+    <div class="desk__copy">
+      <h2 id="desk-title">Booking desk</h2>
+      <p>Checks save in this browser. Export puts the bones of the trip on your calendar so the hotels and trains have somewhere to hang.</p>
+      <div class="desk__actions">
+        <button type="button" id="ics-btn">Download .ics</button>
+        <button type="button" id="print-btn">Print folio</button>
+      </div>
+    </div>
+    <ul class="checks" id="checks"></ul>
+  </section>
+
+  <footer class="colophon">
+    <p>Built as a working folio for the 11–19 November 2026 run. Park seasons from Tivoli and LEGOLAND Billund public calendars. Flight times are typical, not a ticket — book IND–CPH as a one-stop (often YYZ, DTW, ORD, or AMS); CPH–VIE is a ~1h40 nonstop on Austrian, SAS, or Ryanair.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
